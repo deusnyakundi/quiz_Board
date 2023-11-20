@@ -26,6 +26,23 @@
     <title>Quiz Board</title>
 </head>
 <body>
+    <div class="container">
+        <h1 class="text-info">Quiz - Board</h1>
+   
+        <form id="name">
+          <p id="medium" class="text-muted col-md-12">Please enter your name</p>
+          <input type="text" id="firstName" class="form-control col-9" name="" value="" placeholder="Your Name" autofocus required><br>
+          <p id="medium" class="text-muted col-md-12">Please enter your school's name</p>
+          <input type="text" id="schoolName" class="form-control col-9" name="" value="" placeholder="Your School Name" required><br>
+          <button type="submit" class="btn btn-info" onclick="set()" name="button">Proceed</button>
+        </form>
+        <div id="begin">
+          <p id="seen" class="text-muted col-md-8"> <span id="person"></span> , How well do you know Javascript?<span id="school"></span> wishes to test your prowess in javascript</p>
+          <p class="holder">
+            <button type="button" id="start" class="btn btn-success" name="button">Start Test</button>
+          </p>
+        </div>
+      </div>
     
 </body>
 </html>
