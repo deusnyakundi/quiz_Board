@@ -80,30 +80,30 @@
                 <input type="radio" name="Q6" value="0">.pop() <br>
 
                 <p><b><strong>Which of the following is correct about features of JavaScript?</strong></b></p>
-                <input type="radio" name="Q7" value="wrong" /> JavaScript is a lightweight, interpreted programming language.<br />
-                <input type="radio" name="Q7" value="wrong" /> JavaScript is designed for creating network-centric applications.<br />
-                <input type="radio" name="Q7" value="wrong" /> JavaScript is complementary to and integrated with Java.<br />
-                <input type="radio" name="Q7" value="right" /> All of the above.<br /><br>
+                <input type="radio" name="Q7" value="0" > JavaScript is a lightweight, interpreted programming language.<br>
+                <input type="radio" name="Q7" value="0" > JavaScript is designed for creating network-centric applications.<br>
+                <input type="radio" name="Q7" value="0" > JavaScript is complementary to and integrated with Java.<br />
+                <input type="radio" name="Q7" value="10" required> All of the above.<br /><br>
                 <p><b><strong></strong>Which built-in method returns the calling string value converted to lower case?</strong></b></p>
-                <input type="radio" name="Q8" value="right" /> toLowerCase()<br />
-                <input type="radio" name="Q8" value="wrong" /> toLower()<br />
-                <input type="radio" name="Q8" value="wrong" /> changeCase(case)<br />
-                <input type="radio" name="Q8" value="wrong" /> None of the above.<br /><br>
+                <input type="radio" name="Q8" value="10" required> toLowerCase()<br />
+                <input type="radio" name="Q8" value="0" > toLower()<br />
+                <input type="radio" name="Q8" value="0" > changeCase(case)<br>
+                <input type="radio" name="Q8" value="0" > None of the above.<br><br>
                 <p><b><strong></strong>Which built-in method removes the last element from an array and returns that element?</strong></b></p>
-                <input type="radio" name="Q9" value="wrong" /> last()<br />
-                <input type="radio" name="Q9" value="wrong" /> get()<br />
-                <input type="radio" name="Q9" value="right" /> pop()<br />
-                <input type="radio" name="Q9" value="wrong" /> None of the above.<br /><br>
+                <input type="radio" name="Q9" value="0" > last()<br>
+                <input type="radio" name="Q9" value="0" > get()<br>
+                <input type="radio" name="Q9" value="10" required> pop()<br>
+                <input type="radio" name="Q9" value="0" > None of the above.<br>
                 <p><b><strong></strong>Which of the following function of String object creates a string to be displayed as bold as if it were in a </strong><b> tag?</b></p>
-                <input type="radio" name="Q10" value="wrong" /> anchor()<br />
-                <input type="radio" name="Q10" value="wrong" /> big()<br />
-                <input type="radio" name="Q10" value="wrong" /> blink()<br />
-                <input type="radio" name="Q10" value="right" /> bold()<br /><br>
+                <input type="radio" name="Q10" value="0" > anchor()<br>
+                <input type="radio" name="Q10" value="0" > big()<br>
+                <input type="radio" name="Q10" value="0" > blink()<br>
+                <input type="radio" name="Q10" value="10" required> bold()<br>
                 <p><b><strong></strong>Which of the following function of Array object returns a string representing the array and its elements?</strong><b> tag?</b></p>
-                <input type="radio" name="question5" value="wrong" /> toSource()<br />
-                <input type="radio" name="question5" value="wrong" /> sort()<br />
-                <input type="radio" name="question5" value="wrong" /> splice()<br />
-                <input type="radio" name="question5" value="right" /> toString()<br />
+                <input type="radio" name="question5" value="0" > toSource()<br>
+                <input type="radio" name="question5" value="0" > sort()<br>
+                <input type="radio" name="question5" value="0" > splice()<br>
+                <input type="radio" name="question5" value="10" required> toString()<br>
 
                 <button type="submit" class="btn btn-info" name="button">Submit</button>
               </form>
@@ -114,7 +114,52 @@
             <div id="results"></div>
             <button type="button" id="seeResults" class="btn btn-success" name="button">See Answers</button>
           </div>
-
+          <div class="container">
+            <div id="answers">
+              <div class="form-group">
+                <form id=>
+                  <h4>Answers</h4>
+                  <!--Question 1-->
+                  <label for="Q1">which is a scripting language <strong>(10mks)</strong></label><br>
+                  <input type="radio" name="Q1" value="0" disabled>Jquery <br>
+                  <p class="text-success">
+                    <input type="radio" name="Q1" value="10" checked>javascript
+                  </p>
+                  <!--Question 2-->
+                  <label for="Q2">Which of the following is a logical operator <strong>(10mks)</strong></label><br>
+                  <input type="radio" name="Q2" value="0" disabled>=== <br>
+                  <p class="text-success">
+                  <input type="radio" name="Q2" value="10" checked>||
+                </p>
+                  <!--Question 3-->
+                  <label for="Q3">What does mutator methods do to an array? <strong>(10mks)</strong></label><br>
+                  <p class="text-success">
+                  <input type="radio" name="Q3" value="10" checked>Modify Array
+                </p>
+                  <input type="radio" name="Q3" value="0" disabled>Don't modify <br>
+                  <!--Question 4-->
+                  <label for="Q4">How do you set a constant in Javascript? <strong>(10mks)</strong></label><br>
+                  <p class="text-success">
+                  <input type="radio" name="Q4" value="10" checked>Let
+                </p>
+                  <input type="radio" name="Q4" value="0" disabled>var <br>
+                  <!--Question 5-->
+                  <label for="Q5">Which one is <strong>NOT</strong> used to show a pop-up box? <strong>(10mks)</strong></label><br>
+                  <input type="radio" name="Q5" value="0" disabled>Alert()<br>
+                  <p class="text-success">
+                  <input type="radio" name="Q5" value="10" checked>Console.log()
+                </p>
+                  <!--Question 6-->
+                  <label for="Q6">Which one adds an element at the end of an array? <strong>(10mks)</strong></label><br>
+                  <p class="text-success">
+                  <input type="radio" name="Q6" value="10" checked>.push()
+                </p>
+                  <input type="radio" name="Q6" value="0" disabled>.pop() <br>
+                </form>
+               
+            </div>
+          </div>
+        </div>
           <script   src="https://code.jquery.com/jquery-3.3.1.js"></script>
           <script type="text/javascript" src="js/scripts.js">
           </script>
