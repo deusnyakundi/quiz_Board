@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/background.png");
+    background-image: url("../images/jsbackground.png");
  
   }
   #quiz{
@@ -37,7 +37,7 @@ body{
   }
   #medium{
     font-size: 20px;
-    color:red;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   #seen{
